@@ -1,0 +1,16 @@
+Criar o projeto
+npx create-expo-app SilvinhaApp
+
+Adicionar o pacote para execução na WEB
+npx expo install react-dom react-native-web @expo/webpack-config
+
+Executar o projeto
+npx expo start
+npx expo start --localhost --android
+
+Configurando o GIT
+git config --global user.name LuizOtaviodeSouza
+git config --global user.email lui-otavio@hotmail.com
+
+Restaurar o projeto
+npm i

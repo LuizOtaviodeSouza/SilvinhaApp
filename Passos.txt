@@ -14,3 +14,5 @@ git config --global user.email lui-otavio@hotmail.com
 
 Restaurar o projeto
 npm i
+
+src\components\Titles\index.js

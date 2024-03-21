@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
  container:{
    flex: 1,
    width:"100%",
-   lignItems:"center",
+   alignItems:"center",
    justifyContent:"center",
    marginTop:-150,
   },
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
    fontWeight:"bold"
   },
 
-  texImc:{
+  textImc:{
    fontSize:48,
    color:"#000",
    fontWeight:"bold"

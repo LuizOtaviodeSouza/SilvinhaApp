@@ -43,10 +43,11 @@ const styles = StyleSheet.create({
       marginLeft:12,
       margin:30,
    },
-   textbButton:{
+   textButton:{
       fontSize:22,
       color:'#fff'
    }
+
 })
 
 export default styles;

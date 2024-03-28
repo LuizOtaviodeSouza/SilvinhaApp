@@ -5,13 +5,12 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent:'center',
     padding:'10',
-    backgroundColor:"#964B00",
     
   },
   textTitle: {
-   color:'black',
+   color:'white',
    fontSize:28,
-   fontWeight:'bold'
+   fontWeight:'bold',
   },
 
 })

@@ -10,7 +10,7 @@ export default function ResultImc(props) {
        </Text>
 
       <Text style={styles.textImc}>
-        {props.ResultImc}
+        {props.resultImc}
        </Text>
 
     </View>

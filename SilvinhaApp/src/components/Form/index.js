@@ -1,4 +1,4 @@
-import { View, Text, TextInput, TouchableOpacity } from 'react-native'
+import { View, Text, TextInput, TouchableOpacity, Keyboard } from 'react-native'
 import React, { useState } from 'react'
 import styles from './styles'
 import ResultImc from './ResultImc'
@@ -19,6 +19,7 @@ export default function Form() {
     function validationImc(){
       if (height != null && weight != null){
         imcCalculator();
+        Keyboard.dismiss();
         setHeight(null);
         setWeight(null);
         setMessageImc("Seu I.M.C é:");
@@ -26,7 +27,6 @@ export default function Form() {
         return;
       }
       setImc(null);
-      setMessageImc("Preencha o peso e a altura");
       setTextButton("Calcular I.M.C");
     }
 

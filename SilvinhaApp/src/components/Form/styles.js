@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
     width:'100%',
     bottom:0,
     height:'100%',
-    backgroundColor:'white',
+    backgroundColor:'#DBDBDB',
     alignItems:'center',
     marginTop:30,
     borderTopRightRadius:30,
@@ -45,7 +45,8 @@ const styles = StyleSheet.create({
    },
    textButton:{
       fontSize:22,
-      color:'#fff'
+      color:'white',
+      fontWeight:'bold'
    }
 
 })
